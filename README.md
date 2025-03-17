@@ -93,14 +93,6 @@ Distribution of severe weather duration and their types:
   <img src="assets/weather_event.png" alt="Weather Event Distribution" width="48%"/>
 </div>
 
-
-Distribution of severe weather duration and their types:
-Distribution of severe weather duration and their types:
-Distribution of severe weather duration and their types:
-Distribution of severe weather duration and their types:
-Distribution of severe weather duration and their types:
-Distribution of severe weather duration and their types:
-
 ### Evaluation:
 
 To evaluate models on MTBench, you need to:
