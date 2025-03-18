@@ -17,16 +17,16 @@
 
 ## Table of Contents
 
-- [1. Abstract](#1-abstract)
-- [2. Folder Structure](#2-folder-structure)
-- [3. Dataset and Usage](#3-dataset-and-usage)
-- [4. Baseline Results](#4-baseline-results)
-- [5. Contribution and Future Work](#5-contribution-and-future-work)
-- [6. Citation and License](#6-citation-and-license)
+- [Abstract](#1-abstract)
+- [Folder Structure](#2-folder-structure)
+- [Dataset and Usage](#3-dataset-and-usage)
+- [Baseline Results](#4-baseline-results)
+- [Contribution and Future Work](#5-contribution-and-future-work)
+- [Citation and License](#6-citation-and-license)
 
 ## 1. Abstract
 
-We introduce **M**ultimodal **T**ime Series **Bench**mark} (**MTBench**), a large-scale benchmark designed to evaluate large language models (LLMs) on time series and text understanding across financial and weather domains. MTBench comprises of paired time-series and textual data, including financial news with corresponding stock price movements and weather reports aligned with historical temperature records. Unlike existing benchmarks that focus on isolated modalities, MTBench provides a comprehensive testbed for models to jointly reason over structured numerical trends and unstructured textual narratives. The richness of MTBench enables formulation of diverse tasks that require a deep understanding of both text and time-series data, including time-series forecasting, semantic and technical trend analysis, and news-driven question answering (QA). These tasks target the model’s ability to capture temporal dependencies, extract key insights from textual context, and integrate cross-modal information. We evaluate state-of-the-art LLMs on MTBench analyzing their effectiveness in modeling the complex relationships between news narratives and temporal patterns. Our findings reveal significant challenges in current models, including difficulties in capturing long-term dependencies, interpreting causality in financial and weather trends, and effectively fusing multimodal information.
+We introduce **M**ultimodal **T**ime Series **Bench**mark (**MTBench**), a large-scale benchmark designed to evaluate large language models (LLMs) on time series and text understanding across financial and weather domains. MTBench comprises of paired time-series and textual data, including financial news with corresponding stock price movements and weather reports aligned with historical temperature records. Unlike existing benchmarks that focus on isolated modalities, MTBench provides a comprehensive testbed for models to jointly reason over structured numerical trends and unstructured textual narratives. The richness of MTBench enables formulation of diverse tasks that require a deep understanding of both text and time-series data, including time-series forecasting, semantic and technical trend analysis, and news-driven question answering (QA). These tasks target the model’s ability to capture temporal dependencies, extract key insights from textual context, and integrate cross-modal information. We evaluate state-of-the-art LLMs on MTBench analyzing their effectiveness in modeling the complex relationships between news narratives and temporal patterns. Our findings reveal significant challenges in current models, including difficulties in capturing long-term dependencies, interpreting causality in financial and weather trends, and effectively fusing multimodal information.
 
 ## 2. Folder Structure
 
@@ -80,20 +80,20 @@ python download_processed_dataset.py
 
 ### Dataset Distribution
 
-Distribution of financial news impact duration and financial news categories:
+Distributions of financial news impact duration and financial news categories:
 
 <div align="center">
   <img src="assets/finance_duration.png" alt="Finance Duration Distribution" width="48%"/>
   <img src="assets/finance_type.png" alt="Finance Report Type Distribution" width="48%"/>
 
 </div>
-Distribution of severe weather duration and their types:
+Distributions of severe weather duration and their types:
 <div align="center" style="display: flex; justify-content: space-between;">
   <img src="assets/weather_duration.png" alt="Weather Duration Distribution" width="48%"/>
   <img src="assets/weather_event.png" alt="Weather Event Distribution" width="48%"/>
 </div>
 
-### Evaluation:
+### Evaluation
 
 To evaluate models on MTBench, you need to:
 
@@ -159,7 +159,7 @@ We invite contributions to improve MTBench, including:
 * Expanding dataset diversity with new domains.
 * Enhancing task formulation for more complex temporal reasoning.
 * Developing evaluation metrics tailored for multimodal time series reasoning.
-* Designing novel and effective architectures and altorihtms for multimodal time series reasoning
+* Designing novel and effective architectures and altorihtms for multimodal time series reasoning.
 
 ## 6. Citation and License
 
