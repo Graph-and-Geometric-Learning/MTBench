@@ -7,7 +7,7 @@
   <a href=""><img alt="HuggingFace"
     src="https://img.shields.io/badge/Hugging_Face-MTBench-yellow?logo=huggingface"
     "/></a>
-  <a href=""><img alt="Arxiv"
+  <a href="https://arxiv.org/pdf/2503.16858"><img alt="Arxiv"
     src="https://img.shields.io/badge/arxiv-red?logo=arxiv"
     g"/></a>
   <a href=""><img alt="Website"
@@ -17,12 +17,19 @@
 
 ## Table of Contents
 
-- [Abstract](#1-abstract)
-- [Folder Structure](#2-folder-structure)
-- [Dataset and Usage](#3-dataset-and-usage)
-- [Baseline Results](#4-baseline-results)
-- [Contribution and Future Work](#5-contribution-and-future-work)
-- [Citation and License](#6-citation-and-license)
+- [Table of Contents](#table-of-contents)
+- [1. Abstract](#1-abstract)
+- [2. Folder Structure](#2-folder-structure)
+- [3. Dataset and Usage](#3-dataset-and-usage)
+  - [Dependencies](#dependencies)
+  - [Download Dataset](#download-dataset)
+  - [Dataset Distribution](#dataset-distribution)
+  - [Evaluation](#evaluation)
+- [4. Baseline Results](#4-baseline-results)
+  - [Results on Finance Data](#results-on-finance-data)
+  - [Results on Weather Data](#results-on-weather-data)
+- [5. Contribution and Future Work](#5-contribution-and-future-work)
+- [6. Citation and License](#6-citation-and-license)
 
 ## 1. Abstract
 
@@ -168,11 +175,10 @@ This code repository is licensed under [the MIT License](LICENSE-CODE).
 If you find MTBench useful, please consider citing our paper:
 
 ```bibtex
-@article{MTBench2025,
-  author    = {Your Name and Others},
-  title     = {MTBench: A Multimodal Time Series Benchmark for Temporal Reasoning and Question Answering},
-  journal   = {TBD},
-  year      = {2025},
-  url       = {https://arxiv.org/abs/placeholder}
+@article{chen2025mtbench,
+  title={MTBench: A Multimodal Time Series Benchmark for Temporal Reasoning and Question Answering},
+  author={Chen, Jialin and Feng, Aosong and Zhao, Ziyu and Garza, Juan and Nurbek, Gaukhar and Qin, Cheng and Maatouk, Ali and Tassiulas, Leandros and Gao, Yifeng and Ying, Rex},
+  journal={arXiv preprint arXiv:2503.16858},
+  year={2025}
 }
 ```
