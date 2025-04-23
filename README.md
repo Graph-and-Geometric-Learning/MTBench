@@ -64,7 +64,7 @@ MTBench introduces cross-domain dataset covering two domains: **weather** and **
 Run the following commands to create a conda environment for MTBench
 
 ```bash
-git clone https://github.com/asfeng/MTBench.git
+git clone https://github.com/Graph-and-Geometric-Learning/MTBench.git
 cd MTBench
 
 conda create -n MTBench python=3.10.14
