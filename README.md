@@ -4,7 +4,7 @@
 </h1>
 
 <div align="center" style="line-height: 1;">
-  <a href=""><img alt="HuggingFace"
+  <a href="https://hf.co/collections/GGLabYale/mtbench-a-multimodal-time-series-benchmark"><img alt="HuggingFace"
     src="https://img.shields.io/badge/Hugging_Face-MTBench-yellow?logo=huggingface"
     "/></a>
   <a href="https://arxiv.org/pdf/2503.16858"><img alt="Arxiv"
